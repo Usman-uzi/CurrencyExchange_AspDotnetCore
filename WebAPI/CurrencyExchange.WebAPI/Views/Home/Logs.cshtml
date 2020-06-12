@@ -1,0 +1,79 @@
+﻿@model IEnumerable<CurrencyExchange.Business.Models.AuditModel>
+
+@{
+    ViewData["Title"] = "Logs";
+}
+
+<h1>Logs</h1>
+
+<form asp-controller="Home" asp-action="Logs" method="get">
+
+    <label>Start Date</label>
+    <input type="date" name="startDate" />
+    <label>End Date</label>
+    <input type="date" name="endDate" />
+    <input type="submit" value="Filter" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InputAmmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FromCurrency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ToCurrency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ResultAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AddedOn)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.InputAmmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FromCurrency)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ToCurrency)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ResultAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddedOn)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

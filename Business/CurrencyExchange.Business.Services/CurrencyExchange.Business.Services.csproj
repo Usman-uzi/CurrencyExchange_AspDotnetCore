@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\CurrencyExchange.Data.Models\CurrencyExchange.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Data\CurrencyExchange.Interfaces\CurrencyExchange.Data.Interfaces.csproj" />
+    <ProjectReference Include="..\CurrencyExchange.Business.Interfaces\CurrencyExchange.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\CurrencyExchange.Business.Models\CurrencyExchange.Business.Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿@model CurrencyExchange.Business.Models.ViewModels.CurrencyInputModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+<form asp-controller="Home" asp-action="Index" method="post">
+
+    <label asp-for="UserName" class="control-label"></label>
+    <input asp-for="UserName" class="form-control" />
+
+    <label asp-for="GbpValue" class="control-label"></label>
+    <input asp-for="GbpValue" class="form-control" />
+
+    <select asp-for="FromCurrency"
+            asp-items="@(new SelectList(Model.Currencies,"Key","Value"))">
+        <option>Please select one</option>
+    </select>
+
+    <select asp-for="ToCurrency"
+            asp-items="@(new SelectList(Model.Currencies,"Key","Value"))">
+        <option>Please select one</option>
+    </select>
+    <input type="submit" value="Convert" />
+</form>

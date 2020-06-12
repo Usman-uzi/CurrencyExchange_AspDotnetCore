@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{16526367-6689-4438-875B-C4612750004A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{3F7FF67C-5576-408E-8517-9039765ECA37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{94BF4C69-9173-441A-A79A-954E42A154A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{4EFE1FBB-0116-4E78-8409-4FCE581A87A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.WebAPI", "WebAPI\CurrencyExchange.WebAPI\CurrencyExchange.WebAPI.csproj", "{57F259F1-4142-4592-B2FE-214F9BC2A875}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.Data", "Data\CurrencyExchange.Data\CurrencyExchange.Data.csproj", "{E5F95997-B50D-4E32-8C00-33A84B3E76B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.Data.Models", "Data\CurrencyExchange.Data.Models\CurrencyExchange.Data.Models.csproj", "{8B16A129-A77E-4D9D-89DD-0B3707F06D54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.Business.Interfaces", "Business\CurrencyExchange.Business.Interfaces\CurrencyExchange.Business.Interfaces.csproj", "{AB767D84-8925-469D-AEE3-3BCDE76B5376}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.Business.Models", "Business\CurrencyExchange.Business.Models\CurrencyExchange.Business.Models.csproj", "{D1A9A628-A1A1-4BE4-8E43-3310BE6C2724}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.Business.Services", "Business\CurrencyExchange.Business.Services\CurrencyExchange.Business.Services.csproj", "{D6F33793-DD0F-4833-B695-37E55DE3632C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.Data.Interfaces", "Data\CurrencyExchange.Interfaces\CurrencyExchange.Data.Interfaces.csproj", "{59E8F9A4-16C3-4884-BB9C-25FFA3200F0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.Support.DependencyModules", "Support\CurrencyExchange.Support.DependencyModules\CurrencyExchange.Support.DependencyModules.csproj", "{FE9A0F01-29EE-453B-AF89-8521DDC3AAEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7A459540-E919-4D5E-A23B-106BB2DFCE94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchange.Business.Tests", "Tests\CurrencyExchange.Business.Tests\CurrencyExchange.Business.Tests.csproj", "{AFE2E1AC-5C38-4A49-BC09-FBD4FD9D5705}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57F259F1-4142-4592-B2FE-214F9BC2A875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F259F1-4142-4592-B2FE-214F9BC2A875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F259F1-4142-4592-B2FE-214F9BC2A875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F259F1-4142-4592-B2FE-214F9BC2A875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F95997-B50D-4E32-8C00-33A84B3E76B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F95997-B50D-4E32-8C00-33A84B3E76B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F95997-B50D-4E32-8C00-33A84B3E76B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F95997-B50D-4E32-8C00-33A84B3E76B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B16A129-A77E-4D9D-89DD-0B3707F06D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B16A129-A77E-4D9D-89DD-0B3707F06D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B16A129-A77E-4D9D-89DD-0B3707F06D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B16A129-A77E-4D9D-89DD-0B3707F06D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB767D84-8925-469D-AEE3-3BCDE76B5376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB767D84-8925-469D-AEE3-3BCDE76B5376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB767D84-8925-469D-AEE3-3BCDE76B5376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB767D84-8925-469D-AEE3-3BCDE76B5376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A9A628-A1A1-4BE4-8E43-3310BE6C2724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A9A628-A1A1-4BE4-8E43-3310BE6C2724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A9A628-A1A1-4BE4-8E43-3310BE6C2724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A9A628-A1A1-4BE4-8E43-3310BE6C2724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F33793-DD0F-4833-B695-37E55DE3632C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F33793-DD0F-4833-B695-37E55DE3632C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F33793-DD0F-4833-B695-37E55DE3632C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F33793-DD0F-4833-B695-37E55DE3632C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E8F9A4-16C3-4884-BB9C-25FFA3200F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E8F9A4-16C3-4884-BB9C-25FFA3200F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E8F9A4-16C3-4884-BB9C-25FFA3200F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E8F9A4-16C3-4884-BB9C-25FFA3200F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9A0F01-29EE-453B-AF89-8521DDC3AAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9A0F01-29EE-453B-AF89-8521DDC3AAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9A0F01-29EE-453B-AF89-8521DDC3AAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9A0F01-29EE-453B-AF89-8521DDC3AAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE2E1AC-5C38-4A49-BC09-FBD4FD9D5705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE2E1AC-5C38-4A49-BC09-FBD4FD9D5705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE2E1AC-5C38-4A49-BC09-FBD4FD9D5705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE2E1AC-5C38-4A49-BC09-FBD4FD9D5705}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57F259F1-4142-4592-B2FE-214F9BC2A875} = {94BF4C69-9173-441A-A79A-954E42A154A9}
+		{E5F95997-B50D-4E32-8C00-33A84B3E76B4} = {16526367-6689-4438-875B-C4612750004A}
+		{8B16A129-A77E-4D9D-89DD-0B3707F06D54} = {16526367-6689-4438-875B-C4612750004A}
+		{AB767D84-8925-469D-AEE3-3BCDE76B5376} = {4EFE1FBB-0116-4E78-8409-4FCE581A87A2}
+		{D1A9A628-A1A1-4BE4-8E43-3310BE6C2724} = {4EFE1FBB-0116-4E78-8409-4FCE581A87A2}
+		{D6F33793-DD0F-4833-B695-37E55DE3632C} = {4EFE1FBB-0116-4E78-8409-4FCE581A87A2}
+		{59E8F9A4-16C3-4884-BB9C-25FFA3200F0F} = {16526367-6689-4438-875B-C4612750004A}
+		{FE9A0F01-29EE-453B-AF89-8521DDC3AAEE} = {3F7FF67C-5576-408E-8517-9039765ECA37}
+		{AFE2E1AC-5C38-4A49-BC09-FBD4FD9D5705} = {7A459540-E919-4D5E-A23B-106BB2DFCE94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5BD7C5F-64D0-45EB-AAC8-3973151536C2}
+	EndGlobalSection
+EndGlobal
